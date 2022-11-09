@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:ital,wght@0,600;1,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+.fixed{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 0px 3px rgb(208, 208, 208);
+    color: #000;
+    background-color: #fff;
+    padding: 8px 16px;
+    z-index: 3;
+}
+.fixed > div {
+    display: flex;
+    justify-content: space-between;
+}
+.fixed a{
+    padding: 10px 20px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.fixed a:hover{
+    background-color: #ccc;
+}
+.wrapper{
+    display: flex;
+    width: 60%;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+.image{
+    padding: 50px;
+    z-index: 1; 
+    opacity: 0.75;
+}
+.image img{
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+}
+.text{
+    margin-top: 60px;
+}
+.text h1{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.text h5{
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    padding: 20px 0px 25px 0px;
+    font-size: 18px;
+    color: #312f2f;
+}
+.opacity{
+    color: #757575;
+
+}
+.two-page{
+    margin-top: 50px;
+}
+.two-page p{
+    margin-bottom: 10px;
+}
+.two-page h4{
+    margin-bottom: 10px;
+}
+.three-page{
+    width: 60%;
+    margin: 0 auto;
+}
+.three-page >h1{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.three-page p{
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+}
+.solid-text{
+    color: #607d8b;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid rgb(141, 141, 141);
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+form button{
+    font-size: 21px;
+    padding: 5px 10px;
+    border: none;
+    background: rgb(213, 213, 213);
+    margin-bottom: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover{
+    background: rgb(162, 162, 162);
+}
+footer{
+    background: rgb(227, 227, 227);
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    display: block;
+    height: 120px;
+    line-height: 120px;
+}
